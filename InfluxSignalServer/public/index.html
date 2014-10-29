@@ -1,0 +1,34 @@
+<html lang="zh-cn">   
+<body>
+ <!--form method="post" enctype="multipart/form-data" action="http://127.0.0.1:5858/screenshot">
+  <input type="text" name="username">
+  <input type="password" name="password">
+  <input type="file" name="thumbnail">
+  <input type="submit">
+</form--> 
+<title>log_in</title>
+<script type="text/javascript" src="./js/lib/jquery-1.11.0.js"></script>
+<script type="text/javascript" src="./js/lib/adapter.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+<script type="text/javascript" src="./js/chat.js"></script>
+<div>
+<label for="id">Id</label>
+<input type="text" id="id" /> 
+<label for="text">Name</label> 
+<input type="text" id="name" />
+
+<input type="button"  id="loginBtn" value="login"/>
+<input type="button"  id="logoutBtn" value="logout"></input>
+<input type="button"  id="callBtn" value="call"></input>
+<input type="button"  id="sendIceBtn" value = "sendIce"></input>
+<p id="notification">
+Notification:<br/>
+Begining...
+</p>
+</div>
+<div id="videos_div">
+			<video id="localVideo" width="320" height="240" autoplay muted></video>
+			<video id="remoteVideo" width="320" height="240" autoplay muted></video>
+</div>
+</body>
+</html>   

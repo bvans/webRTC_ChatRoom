@@ -1,0 +1,32 @@
+<html lang="zh-cn">   
+<body>
+ <!--form method="post" enctype="multipart/form-data" action="http://127.0.0.1:5858/screenshot">
+  <input type="text" name="username">
+  <input type="password" name="password">
+  <input type="file" name="thumbnail">
+  <input type="submit">
+</form--> 
+<title>log_out</title>
+
+<script>
+  var ws = new WebSocket('ws://127.0.0.1:7878');
+  ws.onmessage = function (msg) {
+    console.log('Get a message: ' + JSON.stringify(msg));
+  };
+  var msg= {"id": "aaa"};
+  setTimeout(function(){
+    ws.send(JSON.stringify(msg));
+  }, 2000);
+</script>
+
+<form action="http://127.0.0.1:7878/v1/log_out" method="post">
+Id: 
+<input type="text" name="id" />
+Name: 
+<input type="text" name="name" />
+
+<input type="submit" value="Submit text"  />
+</form>
+
+</body>
+</html>   

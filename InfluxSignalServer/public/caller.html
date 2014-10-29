@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8" />
+<meta name="keywords" content="JavaScript, WebRTC" />
+<meta name="description" content="WebRTC codelab" />
+<meta name="viewport"
+	content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+
+<title>WebRTC</title>
+
+<style>
+</style>
+<link rel="stylesheet" href="css/style.css"></link>
+
+<script src='js/lib/adapter.js'></script>
+<script src='js/lib/jquery-1.11.0.js'></script>
+<script src='js/lib/socket.io.js'></script>
+</head>
+
+<body>
+	<div style="text-align:center">
+
+		<div id="videos_div">
+			<video id="localVideo" width="320" height="240" autoplay muted></video>
+			<video id="remoteVideo" width="320" height="240" autoplay muted></video>
+		</div>
+
+		<div id="videoBtn_div"
+			style="text-align:left;margin-left:20px;margin-top:20px;margin-bottom:20px;disabled:true">
+			<label for="caller">name:</label>
+			<input type="text" id="caller" value="your name" style="text-align:left"></input>
+			<input id="startButton" type="button"
+				class="pure-button pure-button-success" value="Start">
+			<label for="caller">name:</label>
+			<input type="text" id="callee" value="friend's name" style="text-align:left"></input>
+			</input>  <input
+				id="hangupButton" type="button"
+				class="pure-button pure-button-success" value="Hang Up"></input>
+		</div>
+		<div id="msg_div">
+			<div id="msgBox_div"
+				style="position:absolute; width:400px; text-align:left">
+				<textarea id="msgBox" rows="8" cols="40" disabled></textarea>
+			</div>
+			<div style="position:absolute;left:400px;">
+				<div id="localMsg_div" style=" text-align:left;margin-bottom:20px">
+					<input id="localSendBox" type="text" autocomplete="off"></input> <input
+						id="localSendBtn" type="button" value="LocalSend"></input>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="./js/main1.js">
+		
+	</script>
+</body>
+
+</html>

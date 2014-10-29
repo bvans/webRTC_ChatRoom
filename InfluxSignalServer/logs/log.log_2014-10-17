@@ -1,0 +1,245 @@
+[2014-10-17 10:14:18.733] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 10:14:18.736] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 10:15:24.689] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 10:15:24.690] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 10:44:09.572] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 10:44:09.575] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 10:44:43.011] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 10:44:43.013] [ERROR] dateFileLog - POST /v1/signal
+[2014-10-17 10:45:34.227] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 10:45:34.228] [ERROR] dateFileLog - POST /v1/signal
+[2014-10-17 10:46:57.274] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 10:46:57.277] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 10:47:18.300] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 10:47:18.301] [ERROR] dateFileLog - POST /v1/signal
+[2014-10-17 10:48:24.460] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 10:48:24.463] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 10:48:34.010] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 10:48:34.011] [ERROR] dateFileLog - POST /v1/signal
+[2014-10-17 10:59:49.695] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 10:59:49.698] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 10:59:58.899] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 10:59:58.901] [ERROR] dateFileLog - POST /v1/signal
+[2014-10-17 11:01:06.191] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:01:06.194] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:01:15.274] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 11:01:15.276] [ERROR] dateFileLog - POST /v1/signal
+[2014-10-17 11:02:35.549] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:02:35.553] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:02:45.848] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 11:02:45.850] [ERROR] dateFileLog - POST /v1/signal
+[2014-10-17 11:04:13.373] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:04:13.376] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:04:27.078] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 11:04:42.645] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:04:42.648] [ERROR] dateFileLog - POST /v1/log_in
+[2014-10-17 11:05:33.463] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:05:33.464] [ERROR] dateFileLog - POST /v1/log_in
+[2014-10-17 11:06:08.699] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:06:08.702] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:06:21.986] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:06:21.988] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:06:51.084] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:06:51.087] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:06:57.074] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:06:57.075] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:08:25.144] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:08:25.149] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:08:38.043] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 11:08:49.330] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:08:49.333] [ERROR] dateFileLog - POST /v1/log_in
+[2014-10-17 11:11:38.085] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:11:38.088] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:11:55.497] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 11:12:07.948] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:12:07.951] [ERROR] dateFileLog - POST /v1/log_in
+[2014-10-17 11:14:07.640] [ERROR] dateFileLog - POST /v1/signal
+[2014-10-17 11:15:52.590] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:15:52.595] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:16:04.689] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 11:16:12.638] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:16:12.642] [ERROR] dateFileLog - POST /v1/log_in
+[2014-10-17 11:24:51.712] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:24:51.717] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:25:38.873] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:25:38.875] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:26:18.752] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:26:18.758] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:27:11.278] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 11:27:24.389] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:27:24.400] [ERROR] dateFileLog - POST /v1/log_in
+[2014-10-17 11:32:19.241] [ERROR] dateFileLog - POST /v1/signal
+[2014-10-17 11:36:46.710] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:36:46.714] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:38:29.534] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:38:29.538] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:39:35.611] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:39:35.613] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:42:06.110] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:42:06.116] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:42:29.927] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 11:42:29.929] [INFO] dateFileLog - POST /v1/signal
+[2014-10-17 11:42:37.981] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:42:37.984] [ERROR] dateFileLog - POST /v1/log_in
+[2014-10-17 11:45:59.019] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:45:59.023] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:46:14.207] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 11:46:14.209] [INFO] dateFileLog - POST /v1/signal
+[2014-10-17 11:46:23.711] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:46:23.715] [ERROR] dateFileLog - POST /v1/log_in
+[2014-10-17 11:47:43.925] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 11:47:43.931] [ERROR] dateFileLog - POST /v1/signal
+[2014-10-17 11:48:11.605] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 11:48:11.609] [INFO] dateFileLog - POST /v1/signal
+[2014-10-17 11:48:15.585] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 11:48:15.587] [INFO] dateFileLog - POST /v1/signal
+[2014-10-17 11:48:24.286] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:48:24.287] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:48:30.056] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:48:30.057] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:51:50.324] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:51:50.328] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:52:00.345] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 11:54:55.241] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:54:55.244] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:55:05.035] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 11:56:04.733] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 11:56:04.736] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 11:56:19.566] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 11:56:19.569] [ERROR] dateFileLog - POST /v1/signal
+[2014-10-17 12:32:10.101] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 12:32:10.105] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 12:32:20.808] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 12:32:28.433] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 12:32:28.434] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 12:33:08.640] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 12:33:08.641] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 12:34:15.069] [ERROR] dateFileLog - GET /v1/log_in
+[2014-10-17 12:38:31.623] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 12:38:31.627] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 12:38:46.261] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 12:39:00.713] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 12:39:00.716] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 12:39:21.964] [INFO] dateFileLog - Request handler 'call' was called.
+[2014-10-17 12:39:21.967] [ERROR] dateFileLog - POST /v1/call
+[2014-10-17 12:42:00.361] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 12:42:00.365] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 12:42:11.591] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 12:42:33.656] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 12:42:33.657] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 12:43:07.761] [INFO] dateFileLog - Request handler 'call' was called.
+[2014-10-17 12:43:07.764] [ERROR] dateFileLog - POST /v1/call
+[2014-10-17 12:44:39.001] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 12:44:39.006] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 12:44:51.134] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 12:45:02.126] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 12:45:02.127] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 12:45:10.964] [INFO] dateFileLog - Request handler 'call' was called.
+[2014-10-17 12:45:10.968] [ERROR] dateFileLog - POST /v1/call
+[2014-10-17 12:48:11.219] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 12:48:11.222] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 12:48:29.731] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 12:48:40.153] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 12:48:40.155] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 12:49:06.340] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 12:49:26.262] [INFO] dateFileLog - Request handler 'call' was called.
+[2014-10-17 12:49:26.263] [INFO] dateFileLog - POST /v1/signal
+[2014-10-17 12:49:47.570] [INFO] dateFileLog - Request handler 'reply' was called.
+[2014-10-17 12:49:47.574] [ERROR] dateFileLog - POST /v1/reply
+[2014-10-17 12:53:58.113] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 12:53:58.117] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 12:54:16.392] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 12:54:25.409] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 12:54:25.410] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 12:54:39.619] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 12:54:53.492] [INFO] dateFileLog - Request handler 'call' was called.
+[2014-10-17 12:54:53.493] [INFO] dateFileLog - POST /v1/signal
+[2014-10-17 12:55:23.558] [INFO] dateFileLog - Request handler 'reply' was called.
+[2014-10-17 12:55:23.563] [ERROR] dateFileLog - POST /v1/reply
+[2014-10-17 13:09:29.024] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 13:09:29.029] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 13:09:57.643] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 13:10:09.738] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 13:10:09.739] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 13:15:11.061] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 13:15:11.065] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 13:15:24.945] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 13:15:38.269] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 13:15:38.270] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 13:15:55.223] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 13:16:10.426] [INFO] dateFileLog - Request handler 'call' was called.
+[2014-10-17 13:16:10.427] [INFO] dateFileLog - POST /v1/signal
+[2014-10-17 13:16:36.698] [INFO] dateFileLog - Request handler 'reply' was called.
+[2014-10-17 13:16:36.698] [INFO] dateFileLog - POST /v1/signal
+[2014-10-17 13:16:36.703] [ERROR] dateFileLog - POST /v1/reply
+[2014-10-17 13:20:01.112] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 13:20:01.115] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 13:20:14.384] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 13:20:23.224] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 13:20:23.225] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 13:20:37.261] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 13:20:53.799] [INFO] dateFileLog - Request handler 'call' was called.
+[2014-10-17 13:20:53.800] [INFO] dateFileLog - POST /v1/signal
+[2014-10-17 13:21:08.889] [INFO] dateFileLog - Request handler 'reply' was called.
+[2014-10-17 13:21:08.890] [INFO] dateFileLog - POST /v1/signal
+[2014-10-17 13:21:08.893] [INFO] dateFileLog - POST /v1/call
+[2014-10-17 13:21:08.893] [INFO] dateFileLog - POST /v1/reply
+[2014-10-17 13:22:43.888] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 13:23:04.177] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 13:23:27.689] [INFO] dateFileLog - Request handler 'hang_up' was called.
+[2014-10-17 13:23:27.692] [ERROR] dateFileLog - POST /v1/hang_up
+[2014-10-17 14:02:14.635] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 14:02:14.639] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 14:02:36.864] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 14:02:46.240] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 14:02:46.242] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 14:02:58.436] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 14:03:15.931] [INFO] dateFileLog - Request handler 'hang_up' was called.
+[2014-10-17 14:03:15.931] [INFO] dateFileLog - POST /v1/signal
+[2014-10-17 14:03:41.824] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 14:03:41.825] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 14:23:20.169] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 14:23:20.173] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 14:23:29.366] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 14:23:38.001] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 14:23:38.002] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 14:23:48.322] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 14:24:21.299] [INFO] dateFileLog - Request handler 'hang_up' was called.
+[2014-10-17 14:24:21.300] [INFO] dateFileLog - POST /v1/signal
+[2014-10-17 14:24:44.850] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 14:24:44.851] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 14:25:33.235] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 14:25:33.239] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 14:25:45.567] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 14:25:53.072] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 14:25:53.073] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 14:26:04.898] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 14:26:18.183] [INFO] dateFileLog - Request handler 'hang_up' was called.
+[2014-10-17 14:26:18.184] [INFO] dateFileLog - POST /v1/signal
+[2014-10-17 14:26:30.021] [INFO] dateFileLog - Request handler 'end_up' was called.
+[2014-10-17 14:26:30.027] [ERROR] dateFileLog - POST /v1/end_up
+[2014-10-17 14:27:38.846] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 14:27:38.850] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 14:27:52.503] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 14:28:02.608] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 14:28:02.609] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 14:28:12.524] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 14:28:21.533] [INFO] dateFileLog - Request handler 'hang_up' was called.
+[2014-10-17 14:28:21.533] [INFO] dateFileLog - POST /v1/signal
+[2014-10-17 14:28:33.421] [INFO] dateFileLog - Request handler 'end_up' was called.
+[2014-10-17 14:28:33.422] [INFO] dateFileLog - POST /v1/hang_up
+[2014-10-17 14:28:33.423] [INFO] dateFileLog - POST /v1/end_up
+[2014-10-17 14:34:50.416] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 14:34:50.420] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 14:35:01.203] [INFO] dateFileLog - Request handler 'signal' was called.
+[2014-10-17 14:35:25.361] [INFO] dateFileLog - Request handler 'logout' was called.
+[2014-10-17 14:35:25.362] [INFO] dateFileLog - POST /v1/signal
+[2014-10-17 14:35:25.363] [INFO] dateFileLog - POST /v1/log_out
+[2014-10-17 17:56:46.520] [INFO] dateFileLog - Request handler 'login' was called.
+[2014-10-17 17:56:46.524] [INFO] dateFileLog - POST /v1/log_in
+[2014-10-17 18:08:27.551] [ERROR] dateFileLog - GET /v1/log_in
+[2014-10-17 18:08:37.030] [ERROR] dateFileLog - GET /
+[2014-10-17 18:11:01.856] [ERROR] dateFileLog - GET /
+[2014-10-17 18:11:31.452] [ERROR] dateFileLog - GET /
+[2014-10-17 18:12:50.746] [INFO] dateFileLog - GET /
+[2014-10-17 18:15:34.732] [ERROR] dateFileLog - GET /
