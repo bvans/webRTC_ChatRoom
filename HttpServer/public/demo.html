@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>网页聊天</title>
+
+<script type="text/javascript" src="./js/lib/jquery-1.11.0.js"></script>
+<script type="text/javascript" src="./js/lib/adapter.js"></script>
+<script type="text/javascript" src="./js/lib/easydialog.js"></script>
+<script type="text/javascript" src="./js/lib/event-proxy.js"></script>
+
+<script type="text/javascript" src="./js/main.js"></script>
+<script type="text/javascript" src="./js/ui.js"></script>
+<script type="text/javascript" src="./js/chat.js"></script>
+<script type="text/javascript" src="./js/register.js"></script>
+
+
+<link href="images/dandan.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="css/lanrenzhijia.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="css/easydialog.css" rel="stylesheet" media="screen" type="text/css" />
+
+
+
+<style type="text/css">
+
+</style>
+</head>
+<body style="">
+
+<script>
+
+function check(){
+//请自行根据情况设置条件，或者也可以用 <a onlick=check();>Check</a>这样来使用，那就不需要判断条件了。
+if (0) {
+ function $(e) {
+   return document.getElementById(e);
+ }
+ document.getElementById("mask").style.height=window.innerHeight + "px";
+ document.getElementById("mask").style.width=window.innerWidth + "px";
+ document.getElementById("mask").style.display="block";
+//设置模糊层的宽和高，并让它显示出来，需要在后面加上 "px"，否则Firefox浏览器会出错
+ document.getElementById("loginform").style.top=(document.body.clientHeight -350)/2 + "px";
+ document.getElementById("loginform").style.left=(document.body.clientWidth -600)/2 + "px";
+ document.getElementById("loginform").style.display="block";
+//设置弹出框距离顶部和左部的距离，也可以固定为 xxx px，并让它显示出来
+
+}
+}
+
+function close1(){
+ $("loginform").style.display="none";
+ $("mask").style.display="none";
+}
+//如果要关闭这个层只要让他们设置为隐藏就可以了。
+
+</script>
+
+<div id="base" style="display">
+  
+<div id="mid_top">
+  <div class="tag">
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tr  style="display:none">
+        <td id='tagNameTd' class="td_user td_user_click">12</td>
+        <td id='closeTd' class="td_hide td_hide_click">X</td>
+      </tr>
+    </table>
+	
+  </div>
+  
+</div>
+
+<div id="top"></div>
+<div id="body">
+  <div id="left">
+    <div class="box">
+      <h3 class="groupTitle fold">最近聊天(<span class="n_geshu_1"></span>)</h3>
+      <ul id='recentFriends_ul' class="ul ul_1">
+        
+      </ul>
+      <h3 class="groupTitle fold">我的好友(<span class="n_geshu_2"></span>)</h3>
+      <ul id= "myFriends_ul" class="ul ul_2">
+        
+      </ul>
+    </div>
+    <div class="box_f"></div>
+  </div>
+  <div id="right">
+    <div class="right_box">
+      <div id="right_top"></div>
+      <div id="right_mid"></div>
+      <div id="right_foot"></div>
+      <div class="blank"></div>
+    </div>
+    <div class="right_box_foot"></div>
+  </div>
+  <div id="mid">
+    <div id="mid_con">
+        <div style='float:left'><video id="localVideo"  style="width:120% height:80%" muted autoplay ></video></div>
+        
+		<div style='float:right'><video id="remoteVideo" width="320" height="240" autoplay ></div>
+    </div>
+
+    <div class="mid_box"></div>
+  </div>
+</div>
+
+</div>
+</div>
+
+
+
+
+<div class="theme-popover-mask"></div>
+
+<div class="theme-popover">
+     <div class="theme-poptit">
+          <!-- <a href="javascript:;" title="关闭" class="close">×</a> -->
+          <h3>登录 是一种态度</h3>
+     </div>
+     <div class="theme-popbod dform">
+           <form class="theme-signin" >
+                <ol>
+                     <li><h4>你必须先登录！</h4></li>
+                     <li><strong>ID  ：</strong><input class="ipt" type="text" id="selfId"  size="20" /><p style="color:red"></p></li>
+                     <li><strong>Name：</strong><input class="ipt" type="text" id="selfName"  size="20" /><p style="color:red"></p></li>
+                     <li><input id="loginBtn" type="button"  value=" 登 录 " /></li>
+                </ol>
+           </form>
+     </div>
+</div>
+
+<div>
+
+
+</div>
+</body>
+</html>
