@@ -1,5 +1,4 @@
 videoChat
 =========
 
-videoChat的webrtc实现
-just to test the branch.
+基于webrtc的在线视频聊天系统的简单实现.
