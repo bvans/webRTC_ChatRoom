@@ -27,14 +27,13 @@ app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
 //process route
-app.get('/', routes.index);
+app.use('/',  express.static(__dirname + '/public/index.html'));
 app.get('/logon', routes.logon);
 app.get('/fetchChannels', routes.fetchChannels);
 app.get('/fetchContent', routes.fetchContent);
 app.get('/logoff', routes.logoff);
 app.get('/v1/signal', require("./models/ISS/signal.js").signalEx);
 app.use('/public', express.static(__dirname + '/public'));
-app.use('/', express.static(__dirname + '/public'));
 
 app.post('/v1/log_in', require("./models/ISS/log_in.js").log_in);
 app.post('/v1/signal', require("./models/ISS/signal.js").signal);

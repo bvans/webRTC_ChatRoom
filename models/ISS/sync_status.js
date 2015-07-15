@@ -22,9 +22,7 @@ function sync_status(request,response) {
     var list = dispatcher.userMap.keySet();
     for(var x = 0; x < list.length; ){
         var ele = dispatcher.userMap.get(list[x++]);
-        if(ele === undefined){
-            continue;
-        }else{
+        if(ele && ele.id && ele.name && ele.name){
             userList.push({
                 'id':ele.id,
                 'name':ele.name,
