@@ -34,6 +34,7 @@ app.get('/fetchContent', routes.fetchContent);
 app.get('/logoff', routes.logoff);
 app.get('/v1/signal', require("./models/ISS/signal.js").signalEx);
 app.use('/public', express.static(__dirname + '/public'));
+app.use('/', express.static(__dirname + '/public'));
 
 app.post('/v1/log_in', require("./models/ISS/log_in.js").log_in);
 app.post('/v1/signal', require("./models/ISS/signal.js").signal);
@@ -76,7 +77,7 @@ app.use(function(err, req, res, next) {
     });
 });
 
-var port = 80;
+var port = 18080;
 
 var httpServer = http.createServer(app).listen(port,function() {
     console.log('Express server have started, and listening on port ' + port);
