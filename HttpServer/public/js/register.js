@@ -19,7 +19,7 @@ var ws;
 var localIces = [];
 var remoteIces = [];
 var USERS = {};
-var heartBeat = 5 * 1000;
+var heartBeat = 2 * 1000;
 var hearBeatInt;
 
 var url = "http://" + window.location.host;
