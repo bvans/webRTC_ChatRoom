@@ -1,48 +1,53 @@
 var global = {
-  proxy: new EventProxy(),
-  token: '',
-  hearBeatInt: -1
+  proxy : new EventProxy(),
+  token : '',
+  hearBeatInt : -1
 };
 
 $(document).ready(function () {
   global.proxy.on('callIn', calling);
-  
-  if(webrtcDetectedBrowser !== "chrome") {
+
+  if (webrtcDetectedBrowser !== "chrome") {
     alert('不好意思,仅支持chrom内核的浏览器.');
-	return;
+    var userAgent = navigator.userAgent;
+    if (userAgent.indexOf("Firefox") != -1 || userAgent.indexOf("Presto") != -1) {
+      window.location.replace("about:blank");
+    } else {
+      window.opener = null;
+      window.open("", "_self");
+      window.close();
+    }
+    return;
   }
-  
+
   recentFriendsUl = $("#recentFriends_ul");
   friendsUl = $("#myFriends_ul");
   friendsCountSpan = $(".h3.h3_2 span");
-  
+
   global.token = login(selfId, selfName);
   TOKEN = global.token;
-  
+
   localVideoContainer = document.getElementById("localVideo");
   remoteVideoContainer = document.getElementById("remoteVideo");
 
-
-  
   $closeTd = $("#closeTd");
 
   $closeTd.click(function () {
     easyDialog.open({
-	   container : {
-	 	header : '提示',
-	 	content : '确定要结束通话吗?',
-	 	yesFn : hangup,
-	 	noFn : true
-	   },
-	   fixed : false,
-	});
+      container : {
+        header : '提示',
+        content : '确定要结束通话吗?',
+        yesFn : hangup,
+        noFn : true
+      },
+      fixed : false,
+    });
     /* if (confirm('确定要结束通话吗?')){
-	  hangup();
-	} */
+    hangup();
+    } */
   });
-  
-  
-    window['dandan'] = {}
+
+  window['dandan'] = {}
   var ing_user; //当前用户
   //浏览器
   function liulanqi() {
@@ -51,11 +56,11 @@ $(document).ready(function () {
     $("#top").width(w);
     //$("#foot").html(h);
 
-	//好友栏(左)
+    //好友栏(左)
     $(".box").height(h - 135);
-	//聊天窗口(中)
+    //聊天窗口(中)
     $("#mid_con").height(h - 135);
-	//QQ秀(右)
+    //QQ秀(右)
     $(".right_box").height(h - 135);
     //$("#mid_say textarea").width(w - 480);
 
@@ -117,7 +122,7 @@ $(document).ready(function () {
   $(window).scroll(function () {
     dandan.liulanqi();
   }); //滚动触发
-  
+
   $(window).resize(function () {
     dandan.liulanqi();
     return false;
@@ -125,8 +130,6 @@ $(document).ready(function () {
   //alert("??????")
   dandan.liulanqi();
 
-
-  
   //显示个数
   function user_geshu() {
     var length1 = $(".ul_1 > li").length;
@@ -140,7 +143,7 @@ $(document).ready(function () {
   //点击分组名称
   $(".groupTitle").click(function () {
     $(this).toggleClass('fold');
-	$(this).toggleClass('unfold');
+    $(this).toggleClass('unfold');
     $(this).next("ul").toggle(500);
   });
 
@@ -177,8 +180,8 @@ $(document).ready(function () {
       }); //给按钮加事件
     } else { //创建好友
       $($this).append('<li id="' + id + i + '">' + arr[0] + '</li>');
-	  
-	  ////点击用户事件
+
+      ////点击用户事件
       $('#' + id + i).click(function () {
         title_newuser('title_' + id + i, arr[0], arr[1]);
       }); //给按钮加事件
@@ -203,14 +206,14 @@ $(document).ready(function () {
   function title_newuser(id, user, img) {
     if ($("#" + id).length < 1) {
       $("#mid_top").append(
-	  '<div id="' + id + '" class="list">'+
-	    '<table border="0" cellspacing="0" cellpadding="0">'+
-		  '<tr>'+
-		    '<td id="zi' + id + '" class="td_user td_user_click">' + user + '</td>'+
-			'<td id="zino' + id + '" class="td_hide td_hide_click">X</td>'+
-		  '</tr>'+
-		'</table>'+
-	  '</div>');
+        '<div id="' + id + '" class="list">' +
+        '<table border="0" cellspacing="0" cellpadding="0">' +
+        '<tr>' +
+        '<td id="zi' + id + '" class="td_user td_user_click">' + user + '</td>' +
+        '<td id="zino' + id + '" class="td_hide td_hide_click">X</td>' +
+        '</tr>' +
+        '</table>' +
+        '</div>');
 
       //创建完成后给事件
       //alert('#'+id)
@@ -242,33 +245,29 @@ $(document).ready(function () {
     $("#right_mid").html(""); //清空右边的内容
   }
 
- 
-
   //欢迎
   popLogin();
-  $("#loginBtn").click(function(){
+  $("#loginBtn").click(function () {
     selfId = $("#selfId").val();
-	selfName = $("#selfName").val();
-	
-	$("#selfId").next().html("");
-	$("#selfName").next().html("");
-	if(!selfId) {
-	  $("#selfId").next().html("ID不能为空.");
-	  return;
-	}else if (!selfName){
-	  $("#selfName").next().html("Name不能为空.");
-	   return;
-	}
-	
-	
-	if (TOKEN) {
-	  $("#top").html('<h2><br/>&nbsp;&nbsp;' + dandan.mytime() + ',' + (selfName || '游客') + ',欢迎你的到来！！</h2>');
-	  pushLogin();
-	}
-	
-	
+    selfName = $("#selfName").val();
+
+    $("#selfId").next().html("");
+    $("#selfName").next().html("");
+    if (!selfId) {
+      $("#selfId").next().html("ID不能为空.");
+      return;
+    } else if (!selfName) {
+      $("#selfName").next().html("Name不能为空.");
+      return;
+    }
+
+    if (TOKEN) {
+      $("#top").html('<h2><br/>&nbsp;&nbsp;' + dandan.mytime() + ',' + (selfName || '游客') + ',欢迎你的到来！！</h2>');
+      pushLogin();
+    }
+
   });
   popLogin();
- //login();
- 
+  //login();
+
 })
