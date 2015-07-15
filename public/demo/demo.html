@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>网页聊天</title>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/dandan.js"></script>
+
+<link href="images/dandan.css" rel="stylesheet" media="screen" type="text/css" />
+<style type="text/css">
+
+</style>
+</head>
+<body>
+
+<script>
+
+function check(){
+//请自行根据情况设置条件，或者也可以用 <a onlick=check();>Check</a>这样来使用，那就不需要判断条件了。
+if (0) {
+ function $(e) {
+   return document.getElementById(e);
+ }
+ document.getElementById("mask").style.height=window.innerHeight + "px";
+ document.getElementById("mask").style.width=window.innerWidth + "px";
+ document.getElementById("mask").style.display="block";
+//设置模糊层的宽和高，并让它显示出来，需要在后面加上 "px"，否则Firefox浏览器会出错
+ document.getElementById("loginform").style.top=(document.body.clientHeight -350)/2 + "px";
+ document.getElementById("loginform").style.left=(document.body.clientWidth -600)/2 + "px";
+ document.getElementById("loginform").style.display="block";
+//设置弹出框距离顶部和左部的距离，也可以固定为 xxx px，并让它显示出来
+
+}
+}
+
+function close1(){
+ $("loginform").style.display="none";
+ $("mask").style.display="none";
+}
+//如果要关闭这个层只要让他们设置为隐藏就可以了。
+
+</script>
+
+
+
+<div id="mid_top">
+<!--  <div class="list">
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td class="td_user td_user_click">老猪</td>
+        <td class="td_hide td_hide_click">X</td>
+      </tr>
+    </table>
+  </div>-->
+</div>
+<div id="top">头部</div>
+<div id="body">
+  <div id="left">
+    <div class="box">
+      <h3 class="h3 h3_1">最近聊天(<span class="n_geshu_1"></span>)</h3>
+      <ul class="ul ul_1">
+        <li>老猪</li>
+      </ul>
+      <h3 class="h3 h3_2">我的好友(<span class="n_geshu_2"></span>)</h3>
+      <ul class="ul ul_2">
+        <li>蛋蛋</li>
+      </ul>
+    </div>
+    <div class="box_f"></div>
+  </div>
+  <div id="right">
+    <div class="right_box">
+      <div id="right_top">
+        <!--<p><img src="images/head.jpg" alt="头象" /></p>
+        老猪--></div>
+      <div id="right_mid"></div>
+      <div id="right_foot">蛋蛋</div>
+      <div class="blank"></div>
+    </div>
+    <div class="right_box_foot"></div>
+  </div>
+  <div id="mid">
+    <div id="mid_con">
+        <div style='float:left'><video id="localVideo" width="320" height="240" autoplay muted></video></div>
+        <div style='float:left'><video id="remoteVideo" width="320" height="240" autoplay muted></div>
+     
+    </div>
+    <div id="mid_mid"></div>
+    <div id="mid_foot">
+      <div id="mid_say">
+        <div class="btn">挂断</div>
+	  <div class="btn">哈哈</div>
+	  <div class="btn">哈哈</div>
+      </div>
+      
+      <div class="blank"></div>
+    </div>
+    <div class="mid_box"></div>
+  </div>
+</div>
+
+<div id="mask" style="display:none "> 
+
+<div id="loginform" style="display:none">
+<table>
+<tr><td>
+    <form>
+    <input type="text"/>
+    </form>
+</td>
+</tr>
+</table>
+</div>
+
+</div>
+
+</body>
+</html>
