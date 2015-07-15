@@ -27,14 +27,15 @@ app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
 //process route
-app.use('/',  express.static(__dirname + '/public/index.html'));
-app.get('/logon', routes.logon);
-app.get('/fetchChannels', routes.fetchChannels);
-app.get('/fetchContent', routes.fetchContent);
-app.get('/logoff', routes.logoff);
-app.get('/v1/signal', require("./models/ISS/signal.js").signalEx);
-app.use('/public', express.static(__dirname + '/public'));
+//app.use('/',  express.static(__dirname + '/public/index.html'));
+app.get('/', routes.index);
+//app.get('/logon', routes.logon);
+//app.get('/fetchChannels', routes.fetchChannels);
+//app.get('/fetchContent', routes.fetchContent);
+//app.get('/logoff', routes.logoff);
 
+app.use('/chat', express.static(__dirname + '/public'));
+app.get('/v1/signal', require("./models/ISS/signal.js").signalEx);
 app.post('/v1/log_in', require("./models/ISS/log_in.js").log_in);
 app.post('/v1/signal', require("./models/ISS/signal.js").signal);
 app.post('/v1/call', require("./models/ISS/call.js").call);
@@ -45,7 +46,7 @@ app.post('/v1/hang_up', require("./models/ISS/hang_up.js").hang_up);
 app.post('/v1/end_up', require("./models/ISS/end_up.js").end_up);
 app.post('/v1/log_out', require("./models/ISS/log_out.js").log_out);
 app.post('/v1/sync_status', require("./models/ISS/sync_status.js").sync_status);
-app.post('/screenshot', routes.captureScreenshot);
+//app.post('/screenshot', routes.captureScreenshot);
 
 /// catch 404 and forwarding to error handler
 app.use(function(req, res, next) {
