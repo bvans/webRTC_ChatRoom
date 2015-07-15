@@ -4,7 +4,7 @@
     "author": "bae",
     "description": "The first bae nodejs app!",
     "scripts": {
-        "start": "node ./Httpserver/server.js"
+        "start": "node server.js"
     },
   "dependencies": {
     "body-parser": "~1.0.0",
