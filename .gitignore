@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 *.log
 /node_modules
-
+=======
+/app.js
+node_modules
+*.log
+>>>>>>> github/master
